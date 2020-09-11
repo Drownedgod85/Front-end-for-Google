@@ -1,0 +1,10 @@
+nav {
+  float: right;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.form-border {
+    border-radius: 1rem;
+    padding: 0.5rem;
