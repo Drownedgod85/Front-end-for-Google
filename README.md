@@ -21,6 +21,7 @@ Find pages with… “all these words:”
 Find pages with… “this exact word or phrase:”
 Find pages with… “any of these words:”
 Find pages with… “none of these words:”
+![image](https://user-images.githubusercontent.com/62458624/93386420-ab5a5300-f835-11ea-8657-53dde873dfa1.png)
 
 ### Appearance
 Like Google’s own Advanced Search page, the four options should be stacked vertically, and all of the text fields should be left aligned.
