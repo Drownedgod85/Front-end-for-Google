@@ -16,7 +16,7 @@ Like Google’s own, your search bar should be centered with rounded corners. Th
 On the Google Image Search page, the user should be able to type in a query, click a search button, and be taken to the Google Image search results for that page.
 
 ### Query Advanced
-On the Google Advanced Search page, the user should be able to provide input for the following four fields (taken from Google’s own advanced search options)
+On the Google Advanced Search page, the user should be able to provide input for the following four fields (taken from Google’s own advanced search options) https://www.google.com/advanced_search
 Find pages with… “all these words:”
 Find pages with… “this exact word or phrase:”
 Find pages with… “any of these words:”
