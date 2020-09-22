@@ -209,12 +209,7 @@ svg {
 .footer_links {
 	padding-left: 27px;
 	margin: 0 !important;
-}
-#hplogo {
-    background: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png) no-repeat;
-    height:92px;
-    width:272px;
-}
+
 // Google Inc.
 </script>
 <style>
@@ -2044,7 +2039,7 @@ sentinel {
             color: #222
         }
 
-        a.MV3Tnb:first-of-type {
+        a.MV3Tnb:first-of-type {1111
             margin-left: 15px
         }
 
