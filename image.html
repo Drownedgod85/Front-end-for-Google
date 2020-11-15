@@ -1,40 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
+        <title>Search</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <!-- Custom styles for this template -->
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="css/styles.css">
 
         <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <title>Image search</title>
-</head>
-<body>
-    <!-- HEADER START -->
-    <div class="header">
-        <div class="header-links">
-            <a href="index.html">Google Search</a>
-            <a href="advanced.html">Google Advanced Search</a>
-        </div>
-    </div>
-    <!-- HEADER END -->
-    <!-- SEARCH CONTAINER START -->
-    <div class="search-container">
-        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google logo" />
-        <div class="logo-subtext">
-            <span>images</span>
-        </div>
-        <form action="https://www.google.com/search" method="get">
-            <div class="search-field">
-                <svg height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" stroke="#808080" stroke-linecap="round" stroke-linejoin="round"><circle cx="8.5" cy="8.5" r="5" /><path d="m17.571 17.5-5.571-5.5" /></g></svg>
-                <input type="text" name="q">
+    <ul class="nav justify-content-end">
+
+    <li class="nav-item">
+      <a class="nav-link" href="image.html">Image Search</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="advanced.html">Advanced Search</a>
+      <li class="nav-item">
+      <button type="button" class="btn btn-primary">sign in</button>
+        </ul>
+
+
+
             </div>
-            <input type="hidden" name="tbm" value="isch" />
-        </form>
-    </div>
-    <!-- SEARCH CONTAINER END -->
-    
-    <div id="main">
+            <div id="searchform">
+              <center>
+      <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width=200 alt=goolge logo></center>
+                <form id="tsf" action="https://www.google.com/search" data-submitfalse="q" method="get">
+            <div id="form_div">
+            <div class="container">
+            <div class="search">
+            <input type= "text" "hidden" inputautocomplete="off" title="search">
+            <input type="hidden" name="tbm" value="isch">
+            <div id="icon">
+            <svg focusable="false" viewBox="0 0 24 24">
+  <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+            </svg></span></div></div>
+            </div></div>
+            <div class="submit">
+            <div style="padding-top:30px">
+            <center>
+  <input type="submit" button type"button" class="btn btn-light" name="btnK" value="Google Search">
+  <input type="submit" button type"button" class="btn btn-light" name="btnI" value="I'm Feeling Lucky">
+            </center>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div id="main">
                 <span id="body" class="ctr-p">
                     <center>
                         <div style="padding-top:110px">
