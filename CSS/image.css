@@ -3,3 +3,9 @@
     height:92px;
     width:272px;
 }
+.search-container .logo-subtext {
+  color: #4285f4;
+  position: relative;
+  left: 110px;
+  top: -18px;
+}
