@@ -1,0 +1,5 @@
+// With variable
+.alpha { color: $blue; }
+
+// From the Sass map with our `color()` function
+.beta { color: color("blue"); }
