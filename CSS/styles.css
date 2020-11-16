@@ -189,11 +189,3 @@ div#viewport {
     top: -17%;
     right: -39%;
   }
-  nav a{
-  display: block;
-  padding: 5px 10px 5px 5px;
-  font-size: 0.82em;
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
